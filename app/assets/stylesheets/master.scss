@@ -1,1 +1,16 @@
 @import "bootstrap";
+
+.navbar
+{
+  font-family: "Helvetica Neue", Halvetica;
+  font-weight: 200;
+  background: image_url('diamond_upholstery.png');
+  box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar-light a.navbar-brand
+{
+  font-family: "Helvetica Neue", Halvetica;
+  font-weight: 50;
+  color: black;
+}
