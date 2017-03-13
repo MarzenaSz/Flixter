@@ -57,3 +57,5 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'simple_form'
 # Devise gem for user authentication
 gem 'devise'
+# CarrierWave for image upload
+gem 'carrierwave', '~> 1.0'
