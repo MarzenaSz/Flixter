@@ -59,3 +59,5 @@ gem 'simple_form'
 gem 'devise'
 # CarrierWave for image upload
 gem 'carrierwave', '~> 1.0'
+gem "figaro"
+gem "fog"
