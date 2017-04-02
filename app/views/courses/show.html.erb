@@ -20,7 +20,6 @@
       <% end %>
 
       <br />
-      <br />
 
       <% if current_user %>
         <% if current_user.enrolled_in?(@course) %>
@@ -49,7 +48,6 @@
       <%= @course.description %>
     </div>
   </div>
-
   <div class="col-12">
     <% @course.sections.rank(:row_order).each do |section| %>
       <br /><br />
